@@ -1,0 +1,152 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #ffd3d6;
+}
+
+header {
+	border-bottom: 2px solid rgb(50, 200, 185);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-family: 'Poppins', sans-serif;
+	padding: 10px 0;
+	background-color: #ffd3d6;
+}
+
+.titulo {
+	font-family: poppins;
+	font-size: 40px;
+	color: #EA1179;
+	letter-spacing: 1px;
+}
+
+.itens-cabeçalho {
+	text-decoration: none;
+	color: #EA1179;
+	padding: 0 20px;
+	font-weight: 600;
+	font-size: 19px;
+	transition: .3s;
+}
+
+.itens-cabeçalho:hover {
+	color: rgb(190, 190, 202);
+}
+
+#id-item {
+	text-decoration: none;
+	color: #EA1179;
+	padding: 10px 20px;
+	border: rgb(50, 200, 185) 2px solid;
+	border-radius: 15px 0;
+	font-weight: 500;
+	transition: .3s;
+}
+
+#id-item:hover {
+	border-radius: 0 15px;
+	background-color:#EA1179;
+	color:#ffd3d6;
+	font-weight: 500;
+}
+
+h2 {
+	font-family: 'open sans', ;
+	font-size: 60px;
+	text-align: center;
+	color: #EA1179;
+	margin-top: 15px;
+}
+
+.spn-main {
+	color: rgb(50, 200, 185);
+	letter-spacing: 3px;
+	font-family: open sans, ;
+}
+
+main {
+	border-bottom: 2px solid rgb(50, 200, 185);
+	display: flex;
+	padding: 30px 40px;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	width: 100%;
+	align-items: flex-start;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+.titulo-principal {
+	font-size: 45px;
+	font-family: 'open sans' sans-serif;
+	color: #EA1179;
+}
+
+.texto {
+	font-family: quaretrio;
+	font-size: 20px;
+	font-weight: 600px;
+	margin-top: 5px;
+	color: black;
+}
+
+#rede-social {
+	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+	font-size: 30px;
+	font-family: 'bebas Neue';
+	color: #EA1179;
+}
+
+.icon {
+	width: 25px;
+	margin-left: 6px;
+}
+
+
+.imagem-principal {
+	width: 420px;
+	right: 100PX;
+	border-radius: 15%;
+}
+
+footer {
+	background-color: #ffd3d6;
+	padding-top: 10px;
+}
+
+.spn-footer {
+	color: rgb(50, 200, 185);
+	font-family: open sans;
+}
+
+.copy {
+	text-align: center;
+	font-size: 15px;
+	font-weight: 600;
+	font-family: 'poppins' sans-serif;
+	color: #EA1179 
+}
+
+footer {
+	background-color: #ffd3d6;
+	padding-top: 10px;
+}
+
+.spn-footer {
+	color: rgb(50, 200, 185);
+	font-family: open sans;
+}
+
+.copy {
+	text-align: center;
+	font-size: 25px;
+	font-weight: 600;
+	font-family: 'poppins' sans-serif;
+	color:  #EA1179;
+}
